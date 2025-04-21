@@ -130,7 +130,7 @@ def generate_detailed_explanation(jd_text, keywords, recommended):
 
 # Streamlit interface
 st.title("Interview Prep Tool")
-st.write("Enter a job description to get coding problem recommendations with explanations.")
+st.write("Enter a job description to get coding problem recommendations.")
 
 # Input job description
 jd_text = st.text_area("Job Description", height=200)
