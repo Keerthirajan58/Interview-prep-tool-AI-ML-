@@ -156,4 +156,4 @@ if st.button("Get Recommendations"):
         else:
             st.write("No problems found for the selected difficulty.")
     else:
-        st.write("Please enter a job description.")
+        st.write("The input area is empty, please enter a job description.")
