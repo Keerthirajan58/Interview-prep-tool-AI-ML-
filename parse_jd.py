@@ -26,7 +26,7 @@ if __name__ == "__main__":
     sample_jd = """
     We are looking for a software engineer with experience in Python, SQL, and machine learning.
     The ideal candidate should be familiar with data structures, algorithms, and cloud computing.
-    Experience with AWS or Azure is a plus.
+    Experience with AWS or Azure is an add-on.
     """
     skills = extract_skills_from_jd(sample_jd)
     print("Extracted Skills:", skills)
